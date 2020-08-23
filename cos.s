@@ -84,9 +84,8 @@ TO_RADIANS:
    
 
 @*************************************************************************************************************************  
-@ To calculate the value of cos(x), where x is the angle in radianes
-@ we will use the Taylor Series expansion (partial). That is:
-@ cos(x) = 1 - x^2/2! + x^4/4! - x^6/6!
+@ To calculate the value of cos(x), where x is the angle in radianes we will use the Taylor Series expansion (partial).
+@ That is: cos(x) = 1 - x^2/2! + x^4/4! - x^6/6!
 @ Range: de 0 a 180 in sexagesimal numeric system (degree).
 @*************************************************************************************************************************  
 
