@@ -3,7 +3,7 @@
 @ Note: all the commands correspond to SWI Legacy.
 @ Make sure to activate the Legacy (not the Angel) plugin in Plugin section of ARMSim.
 @ To calculate the cosine, we will work in float32 most of the time. Still, it is not posible to print out a float32, so
-@ to print a value on screen first we print out the whole-number part, then a decimal point symbol and then decimal
+@ to print a value on screen first we print out the whole-number part, then a decimal point symbol and then the decimal
 @ digits, one by one (up to 3 digits).
 @************************************************************************************************************************* 
 
