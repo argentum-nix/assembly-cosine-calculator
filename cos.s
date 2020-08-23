@@ -107,8 +107,7 @@ TAYLOR_SERIES:
     vmul.f32 s3, s3, s4             @ x^6/6!
 
     ldr r0, =one
-    vldr s6, [r0]					
-    								@ s5 will contain the final result of series expansion
+    vldr s6, [r0]					@ s5 will contain the final result of series expansion
     vsub.f32 s5, s6, s1             @ s5 = 1 - x^2/2!
     vadd.f32 s5, s5, s2             @ s5 = 1 - x^2/2! + x^4/4!
     vsub.f32 s5, s5, s3             @ s5 = 1 - x^2/2! + x^4/4! - x^6/6!
