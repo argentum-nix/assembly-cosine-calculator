@@ -1,5 +1,7 @@
 # Description
 ## Function
+This ARM Assembly program calculates the value of cos(x) for the given angle x in degrees, with the precision up to 3 decimals (truncated on 3rd decimal). The expected range for the input angle is from 0 to 180 degrees.
+
 ## Theory
 
 To obtain the cos(x) result the program makes use of the Taylor Series expansion for cosine function.  
@@ -10,8 +12,11 @@ The program gives precise results for the angles from 0 to 180 degrees. It's pos
 
 ## I/O
 
-The input is obtained from the archive input.txt that should be created and moved to the same directory as the main program before executing it.  
-input.txt is a plain archive which should contain one line with the value of an angle to use. Note: the input angle should be presented in degrees - the program will handle degrees-to-radians convertion.  
+The input is obtained from the archive input.txt that should be created and moved to the same directory as the main program before executing it. 
+
+input.txt is a plain archive which should contain one line with the value of an angle to use.  
+
+Note: the program expects the input angle to be given in degrees - it will handle degrees-to-radians convertion before applying Taylor Series expansion.
 
 Example of the input archive: [input.txt](input/)
 
