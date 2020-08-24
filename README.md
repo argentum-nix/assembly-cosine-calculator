@@ -16,7 +16,7 @@ The input is obtained from the archive input.txt that should be created and move
 
 input.txt is a plain archive which should contain one line with the value of an angle to use.  
 
-Note: the program expects the input angle to be given in degrees - it will handle degrees-to-radians convertion before applying Taylor Series expansion.
+Note: the program expects the input angle to be given in degrees - it will handle degrees-to-radians conversion before applying Taylor Series expansion.
 
 Example of the input archive: [input.txt](input/)
 
