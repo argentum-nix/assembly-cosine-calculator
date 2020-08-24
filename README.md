@@ -1,12 +1,3 @@
-# Dependencies
-
-- Software: ARMSim 2.01
-- Plugin: SWI Legacy
-
-# Official documentation
-- [VFP instructions - Float32 for ARM Assembly](https://developer.arm.com/documentation/dui0489/c/neon-and-vfp-programming/vfp-instructions)  
-- [ARMSim# User Guide (SWI reference)](https://www.lri.fr/~de/ARM-Tutorial.pdf)
-
 # Description
 ## Function
 ## Theory
@@ -24,3 +15,12 @@ input.txt is a plain archive which should contain one line with the value of an 
 
 Example of the input archive: [input.txt](input/)
 
+The output will be shown in the ARMSim#'s terminal. To make the output stay on screen the program doesn't close the archive nor does it terminate completely (SWI commands 0x68 (Close) & 0x11 (Exit) are not executed and, if desired, should be added to the .DONE function).
+
+# Dependencies
+- Software: ARMSim 2.01
+- Plugin: SWI Legacy
+
+# Official documentation
+- [VFP instructions - Float32 for ARM Assembly](https://developer.arm.com/documentation/dui0489/c/neon-and-vfp-programming/vfp-instructions)  
+- [ARMSim# User Guide (SWI reference)](https://www.lri.fr/~de/ARM-Tutorial.pdf)
